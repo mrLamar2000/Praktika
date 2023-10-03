@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.div1 {
+  background-image: url(/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+}
+
+.navbar {
+  padding: 0 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+.navbar p {
+  font-size: 20px;
+  width: 30px;
+  color: grey;
+}
+
+.div2 {
+  margin: 0 200px;
+  height: 500px;
+  margin-top: 100px;
+}
+.div2 h1 {
+  width: 400px;
+  font-size: 50px;
+  margin-top: 20px;
+}
+.div2 p {
+  width: 500px;
+  color: grey;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.div2 button {
+  width: 240px;
+  height: 70px;
+  background-color: rgb(120, 79, 51);
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+.div2 .but1 {
+  width: 240px;
+  height: 70px;
+  background-color: white;
+  color: rgb(120, 79, 51);
+  border: solid rgb(120, 79, 51);
+}
+.div2 .but1:hover {
+  background-color: rgba(0, 0, 0, 0.76);
+  transition: 1s;
+}
+.div2 img {
+  margin-left: 100px;
+}
+
+.div3 {
+  height: 500px;
+  display: flex;
+  padding: 0 130px;
+  justify-content: space-between;
+}
+.div3 .dib {
+  width: 300px;
+  height: 280px;
+  background-color: white;
+  text-align: center;
+  padding-top: 40px;
+  border-radius: 5px;
+}
+.div3 .dib img {
+  padding-bottom: 10px;
+}
+.div3 .dib p {
+  width: 200px;
+  margin: auto;
+  padding: 20px 0;
+}
+.div3 .dib1 {
+  width: 300px;
+  height: 280px;
+  background-color: white;
+  text-align: center;
+  padding-top: 40px;
+  border-radius: 5px;
+}
+.div3 .dib1 p {
+  width: 200px;
+  margin: auto;
+  padding: 20px 0;
+}
+.div3 .dib1 img {
+  padding-bottom: 10px;
+}
+.div3 .dib2 {
+  width: 300px;
+  height: 280px;
+  background-color: rgb(41, 92, 122);
+  text-align: center;
+  padding-top: 40px;
+  border-radius: 5px;
+}
+.div3 .dib2 img {
+  padding-bottom: 10px;
+}
+.div3 .dib2 p {
+  width: 200px;
+  margin: auto;
+  padding: 20px 0;
+}
+.div3 .dib1:hover {
+  background-color: brown;
+  transition: 1s;
+}
+.div3 .dib:hover {
+  background-color: grey;
+  transition: 1s;
+}
+.div3 .dib2:hover {
+  background-color: yellow;
+  transition: 1s;
+}
+
+.div4 {
+  height: 70vh;
+  background-color: whitesmoke;
+}
+.div4 .h1 {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+.div4 .p {
+  width: 550px;
+  margin: auto;
+  font-size: 20px;
+}
+.div4 .fig {
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  align-items: center;
+}
+.div4 .fig .gid {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+}
+.div4 .fig .gid img {
+  width: 80px;
+  height: 80px;
+  padding-top: 10px;
+}
+.div4 .fig .gid h1 {
+  width: 150px;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin-left: 20px;
+}
+.div4 .fig .gid p {
+  width: 150px;
+  font-size: 10px;
+  color: grey;
+  text-align: center;
+  margin-left: 20px;
+}
+.div4 .fig .gid:hover {
+  background-color: green;
+  transition: 3s;
+  border-radius: 10px;
+}
+
+.div5 {
+  height: 100vh;
+  background-color: whitesmoke;
+}
+.div5 .hw {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.div5 p {
+  width: 600px;
+  font-size: 20px;
+  margin: auto;
+  color: grey;
+}
+.div5 .din {
+  padding: 0 100px;
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.div5 .din .dim {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  background-color: white;
+}
+.div5 .din .dim p {
+  width: 200px;
+  font-size: 15px;
+  color: grey;
+}
+.div5 .din .dim img {
+  width: 250px;
+  height: 200px;
+}
+.div5 .din .dim h1 {
+  width: 300px;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.div6 {
+  height: 100vh;
+}
+.div6 .gh {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+.div6 .hg {
+  width: 700px;
+  font-size: 20px;
+  color: grey;
+  margin: auto;
+}
+.div6 .dih {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 100px;
+}
+.div6 .dih .left1 img {
+  border-radius: 10px;
+}
+.div6 .dih .right1 p {
+  width: 580px;
+  font-size: 23px;
+}
+.div6 .dih .right1 h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.div7 {
+  height: 45vh;
+  background-color: whitesmoke;
+}
+.div7 .imgho {
+  height: 20vh;
+  margin: 0 200px;
+}
+.div7 .fut {
+  height: 16vh;
+  background-color: rgb(37, 43, 66);
+}
+.div7 .fit {
+  width: 600px;
+  height: 10vh;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  border-radius: 5px;
+  position: relative;
+  top: 60px;
+}
+.div7 .fit .left4 h1 {
+  color: white;
+  font-size: 25px;
+  width: 300px;
+}
+.div7 .fit .right4 input {
+  width: 270px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.oxir {
+  height: 100vh;
+  background-color: whitesmoke;
+}
+.oxir .df {
+  margin: auto;
+  width: 600px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.oxir .kj {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.oxir .guh {
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+}
+.oxir .guh p {
+  width: 300px;
+}
+.oxir .guh button {
+  width: 200px;
+  height: 60px;
+  border: solid gold;
+  background-color: white;
+  color: gold;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.oxir .big {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+.oxir .big img {
+  margin: 0 130px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.oxir .big h1 {
+  text-align: center;
+}
+.oxir .big p {
+  margin: 0 100px;
+  padding: 20px 0;
+}
+.oxir .big button {
+  margin: 20px 100px;
+}
+.oxir .big1 {
+  width: 400px;
+  height: 600px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  bottom: 50px;
+}
+.oxir .big1 img {
+  margin: 0 160px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.oxir .big1 h1 {
+  text-align: center;
+}
+.oxir .big1 p {
+  margin: 0 100px;
+  padding: 20px 0;
+}
+.oxir .big1 button {
+  margin: 60px 100px;
+  background-color: black;
+}
+
+.lob {
+  height: 10vh;
+  background-color: white;
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lob .lef h1 {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+.lob .lef p {
+  font-size: 20px;
+}
+.lob .lef button {
+  width: 200px;
+  height: 60px;
+  background-color: rgb(120, 79, 51);
+  font-size: 20px;
+  color: white;
+}
+.lob button {
+  width: 200px;
+  height: 60px;
+  background-color: rgb(120, 79, 51);
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.davbar {
+  height: 250px;
+  padding: 0 100px;
+  background-color: rgb(41, 92, 122);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+}
+.davbar .a {
+  width: 100px;
+  font-size: 20px;
+}
+.davbar .b {
+  width: 100px;
+  font-size: 20px;
+}
+.davbar .c {
+  width: 100px;
+  font-size: 20px;
+}
+.davbar .d {
+  width: 100px;
+  font-size: 20px;
+}
+.davbar .e {
+  width: 100px;
+  font-size: 20px;
+}
+
+.davbar:hover {
+  background-color: rgb(14, 74, 153);
+  transition: 1s;
+}
+
+.vid {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+  align-items: center;
+  height: 80px;
+}
+.vid p {
+  color: rgba(0, 0, 0, 0.612);
+}/*# sourceMappingURL=style.css.map */
